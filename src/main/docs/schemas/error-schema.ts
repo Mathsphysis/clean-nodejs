@@ -1,9 +1,9 @@
 export const errorSchema = {
-  type: 'object',
-  properties: {
-    error: {
-      type: 'string',
+    type: 'object',
+    properties: {
+      error: {
+        type: 'string',
+      },
     },
-  },
-  required: ['error'],
-};
+    required: ['error'],
+  };
